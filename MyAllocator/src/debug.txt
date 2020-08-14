@@ -1,0 +1,2674 @@
+
+Please enter parameters 'a' and 'b' to ackerman function.
+Note that this function takes a long time to compute
+even for small values. Keep 'a' at or below 3, and 'b'
+at or below 8.
+Otherwise, the function takes seemingly forever.
+Enter 0 for either 'a' or 'b' in order to exit
+
+  a = 2
+  b = 2
+      a = 2, b = 2
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+location: 0x6fffffd9010 length: 55
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge START----------------
+Calculated addr is: 0x6fffffc2c10
+addr length: 89
+my_fibo_term------9
+my addr: 0x6fffffc2c10
+my_fibo_term: 9
+left_fibo_term: 10
+left_fibo_num: 144
+Left Given addr is: 0x6fffff9ec10
+-----------------------------
+right_fibo_term: 8
+right_fibo_num: 55
+Right Given addr is: 0x6fffffd9010
+INVALID SEGMENT HEADER!!0x6fffff9ec10
+right candidate selcetd
+candidate selected: 0x6fffffd9010
+canddiate term: 8
+Before Removed: 
+location: 0x6fffffd9010 length: 55
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffc2c10  my_fibo_term: 10 _s->length: 144
+<------------------------->
+my_fibo_term------10
+my addr: 0x6fffffc2c10
+my_fibo_term: 10
+left_fibo_term: 11
+left_fibo_num: 233
+Left Given addr is: 0x6fffff88810
+-----------------------------
+right_fibo_term: 9
+right_fibo_num: 89
+Right Given addr is: 0x6fffffe6c10
+left candidate selcetd
+candidate selected: 0x6fffff88810
+canddiate term: 11
+Before Removed: 
+location: 0x6fffff88810 length: 233
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffff88810  my_fibo_term: 12 _s->length: 377
+<------------------------->
+my_fibo_term------12
+my addr: 0x6fffff88810
+my_fibo_term: 12
+left_fibo_term: 13
+left_fibo_num: 610
+Left Given addr is: 0x6ffffef0010
+-----------------------------
+right_fibo_term: 11
+right_fibo_num: 233
+Right Given addr is: 0x6fffffe6c10
+left candidate selcetd
+candidate selected: 0x6ffffef0010
+canddiate term: 13
+Before Removed: 
+location: 0x6ffffef0010 length: 610
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6ffffef0010  my_fibo_term: 14 _s->length: 987
+<------------------------->
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge START----------------
+Calculated addr is: 0x6fffffea810
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffea010
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+After Removed: 
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+next term: 0x6fffffea010  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffea010
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffe8c10
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6fffffeac10
+INVALID SEGMENT HEADER!!0x6fffffe8c10
+right candidate selcetd
+candidate selected: 0x6fffffeac10
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+After Removed: 
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+next term: 0x6fffffea010  my_fibo_term: 3 _s->length: 5
+<------------------------->
+my_fibo_term------3
+my addr: 0x6fffffea010
+my_fibo_term: 3
+left_fibo_term: 4
+left_fibo_num: 8
+Left Given addr is: 0x6fffffe8010
+-----------------------------
+right_fibo_term: 2
+right_fibo_num: 3
+Right Given addr is: 0x6fffffeb410
+INVALID SEGMENT HEADER!!0x6fffffe8010
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffea010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge START----------------
+Calculated addr is: 0x6fffffea810
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffea010
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+After Removed: 
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+next term: 0x6fffffea010  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffea010
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffe8c10
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6fffffeac10
+INVALID SEGMENT HEADER!!0x6fffffe8c10
+right candidate selcetd
+candidate selected: 0x6fffffeac10
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+After Removed: 
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+next term: 0x6fffffea010  my_fibo_term: 3 _s->length: 5
+<------------------------->
+my_fibo_term------3
+my addr: 0x6fffffea010
+my_fibo_term: 3
+left_fibo_term: 4
+left_fibo_num: 8
+Left Given addr is: 0x6fffffe8010
+-----------------------------
+right_fibo_term: 2
+right_fibo_num: 3
+Right Given addr is: 0x6fffffeb410
+INVALID SEGMENT HEADER!!0x6fffffe8010
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffea010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffea010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge START----------------
+Calculated addr is: 0x6fffffebc10
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffeb410
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffef410 length: 2
+After Removed: 
+location: 0x6fffffef410 length: 2
+next term: 0x6fffffeb410  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffeb410
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffea010
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6fffffec010
+left candidate selcetd
+candidate selected: 0x6fffffea010
+canddiate term: 3
+Before Removed: 
+location: 0x6fffffea010 length: 5
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffea010  my_fibo_term: 4 _s->length: 8
+<------------------------->
+my_fibo_term------4
+my addr: 0x6fffffea010
+my_fibo_term: 4
+left_fibo_term: 5
+left_fibo_num: 13
+Left Given addr is: 0x6fffffe6c10
+-----------------------------
+right_fibo_term: 3
+right_fibo_num: 5
+Right Given addr is: 0x6fffffec010
+left candidate selcetd
+candidate selected: 0x6fffffe6c10
+canddiate term: 5
+Before Removed: 
+location: 0x6fffffe6c10 length: 13
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffe6c10  my_fibo_term: 6 _s->length: 21
+<------------------------->
+my_fibo_term------6
+my addr: 0x6fffffe6c10
+my_fibo_term: 6
+left_fibo_term: 7
+left_fibo_num: 34
+Left Given addr is: 0x6fffffde410
+-----------------------------
+right_fibo_term: 5
+right_fibo_num: 13
+Right Given addr is: 0x6fffffec010
+INVALID SEGMENT HEADER!!0x6fffffde410
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+Empty free list
+TERM: 6
+location: 0x6fffffe6c10 length: 21
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+Empty free list
+TERM: 6
+location: 0x6fffffe6c10 length: 21
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge START----------------
+Calculated addr is: 0x6fffffee010
+addr length: 5
+my_fibo_term------3
+my addr: 0x6fffffee010
+my_fibo_term: 3
+left_fibo_term: 4
+left_fibo_num: 8
+Left Given addr is: 0x6fffffec010
+-----------------------------
+right_fibo_term: 2
+right_fibo_num: 3
+Right Given addr is: 0x6fffffef410
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffee010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+Empty free list
+TERM: 6
+location: 0x6fffffe6c10 length: 21
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+Empty free list
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge START----------------
+Calculated addr is: 0x6fffffe6c10
+addr length: 13
+my_fibo_term------5
+my addr: 0x6fffffe6c10
+my_fibo_term: 5
+left_fibo_term: 6
+left_fibo_num: 21
+Left Given addr is: 0x6fffffe1810
+-----------------------------
+right_fibo_term: 4
+right_fibo_num: 8
+Right Given addr is: 0x6fffffea010
+INVALID SEGMENT HEADER!!0x6fffffe1810
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge START----------------
+Calculated addr is: 0x6fffffd9010
+addr length: 55
+my_fibo_term------8
+my addr: 0x6fffffd9010
+my_fibo_term: 8
+left_fibo_term: 9
+left_fibo_num: 89
+Left Given addr is: 0x6fffffc2c10
+-----------------------------
+right_fibo_term: 7
+right_fibo_num: 34
+Right Given addr is: 0x6fffffe6c10
+left candidate selcetd
+candidate selected: 0x6fffffc2c10
+canddiate term: 9
+Before Removed: 
+location: 0x6fffffc2c10 length: 89
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffc2c10  my_fibo_term: 10 _s->length: 144
+<------------------------->
+my_fibo_term------10
+my addr: 0x6fffffc2c10
+my_fibo_term: 10
+left_fibo_term: 11
+left_fibo_num: 233
+Left Given addr is: 0x6fffff88810
+-----------------------------
+right_fibo_term: 9
+right_fibo_num: 89
+Right Given addr is: 0x6fffffe6c10
+left candidate selcetd
+candidate selected: 0x6fffff88810
+canddiate term: 11
+Before Removed: 
+location: 0x6fffff88810 length: 233
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffff88810  my_fibo_term: 12 _s->length: 377
+<------------------------->
+my_fibo_term------12
+my addr: 0x6fffff88810
+my_fibo_term: 12
+left_fibo_term: 13
+left_fibo_num: 610
+Left Given addr is: 0x6ffffef0010
+-----------------------------
+right_fibo_term: 11
+right_fibo_num: 233
+Right Given addr is: 0x6fffffe6c10
+left candidate selcetd
+candidate selected: 0x6ffffef0010
+canddiate term: 13
+Before Removed: 
+location: 0x6ffffef0010 length: 610
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6ffffef0010  my_fibo_term: 14 _s->length: 987
+<------------------------->
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+location: 0x6fffffe1810 length: 21
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge START----------------
+Calculated addr is: 0x6fffffd9010
+addr length: 34
+my_fibo_term------7
+my addr: 0x6fffffd9010
+my_fibo_term: 7
+left_fibo_term: 8
+left_fibo_num: 55
+Left Given addr is: 0x6fffffcb410
+-----------------------------
+right_fibo_term: 6
+right_fibo_num: 21
+Right Given addr is: 0x6fffffe1810
+INVALID SEGMENT HEADER!!0x6fffffcb410
+right candidate selcetd
+candidate selected: 0x6fffffe1810
+canddiate term: 6
+Before Removed: 
+location: 0x6fffffe1810 length: 21
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffd9010  my_fibo_term: 8 _s->length: 55
+<------------------------->
+my_fibo_term------8
+my addr: 0x6fffffd9010
+my_fibo_term: 8
+left_fibo_term: 9
+left_fibo_num: 89
+Left Given addr is: 0x6fffffc2c10
+-----------------------------
+right_fibo_term: 7
+right_fibo_num: 34
+Right Given addr is: 0x6fffffe6c10
+left candidate selcetd
+candidate selected: 0x6fffffc2c10
+canddiate term: 9
+Before Removed: 
+location: 0x6fffffc2c10 length: 89
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffc2c10  my_fibo_term: 10 _s->length: 144
+<------------------------->
+my_fibo_term------10
+my addr: 0x6fffffc2c10
+my_fibo_term: 10
+left_fibo_term: 11
+left_fibo_num: 233
+Left Given addr is: 0x6fffff88810
+-----------------------------
+right_fibo_term: 9
+right_fibo_num: 89
+Right Given addr is: 0x6fffffe6c10
+left candidate selcetd
+candidate selected: 0x6fffff88810
+canddiate term: 11
+Before Removed: 
+location: 0x6fffff88810 length: 233
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffff88810  my_fibo_term: 12 _s->length: 377
+<------------------------->
+my_fibo_term------12
+my addr: 0x6fffff88810
+my_fibo_term: 12
+left_fibo_term: 13
+left_fibo_num: 610
+Left Given addr is: 0x6ffffef0010
+-----------------------------
+right_fibo_term: 11
+right_fibo_num: 233
+Right Given addr is: 0x6fffffe6c10
+left candidate selcetd
+candidate selected: 0x6ffffef0010
+canddiate term: 13
+Before Removed: 
+location: 0x6ffffef0010 length: 610
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6ffffef0010  my_fibo_term: 14 _s->length: 987
+<------------------------->
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge START----------------
+Calculated addr is: 0x6fffffea810
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffea010
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+After Removed: 
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+next term: 0x6fffffea010  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffea010
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffe8c10
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6fffffeac10
+INVALID SEGMENT HEADER!!0x6fffffe8c10
+right candidate selcetd
+candidate selected: 0x6fffffeac10
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+After Removed: 
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+next term: 0x6fffffea010  my_fibo_term: 3 _s->length: 5
+<------------------------->
+my_fibo_term------3
+my addr: 0x6fffffea010
+my_fibo_term: 3
+left_fibo_term: 4
+left_fibo_num: 8
+Left Given addr is: 0x6fffffe8010
+-----------------------------
+right_fibo_term: 2
+right_fibo_num: 3
+Right Given addr is: 0x6fffffeb410
+INVALID SEGMENT HEADER!!0x6fffffe8010
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffea010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge START----------------
+Calculated addr is: 0x6fffffea810
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffea010
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+After Removed: 
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+next term: 0x6fffffea010  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffea010
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffe8c10
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6fffffeac10
+INVALID SEGMENT HEADER!!0x6fffffe8c10
+right candidate selcetd
+candidate selected: 0x6fffffeac10
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+After Removed: 
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+next term: 0x6fffffea010  my_fibo_term: 3 _s->length: 5
+<------------------------->
+my_fibo_term------3
+my addr: 0x6fffffea010
+my_fibo_term: 3
+left_fibo_term: 4
+left_fibo_num: 8
+Left Given addr is: 0x6fffffe8010
+-----------------------------
+right_fibo_term: 2
+right_fibo_num: 3
+Right Given addr is: 0x6fffffeb410
+INVALID SEGMENT HEADER!!0x6fffffe8010
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffea010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffea010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge START----------------
+Calculated addr is: 0x6fffffebc10
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffeb410
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+After Removed: 
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+next term: 0x6fffffeb410  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffeb410
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffea010
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6fffffec010
+left candidate selcetd
+candidate selected: 0x6fffffea010
+canddiate term: 3
+Before Removed: 
+location: 0x6fffffea010 length: 5
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffea010  my_fibo_term: 4 _s->length: 8
+<------------------------->
+my_fibo_term------4
+my addr: 0x6fffffea010
+my_fibo_term: 4
+left_fibo_term: 5
+left_fibo_num: 13
+Left Given addr is: 0x6fffffe6c10
+-----------------------------
+right_fibo_term: 3
+right_fibo_num: 5
+Right Given addr is: 0x6fffffec010
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+location: 0x6fffffea010 length: 8
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffea010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge START----------------
+Calculated addr is: 0x6fffffebc10
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffeb410
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+After Removed: 
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+next term: 0x6fffffeb410  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffeb410
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffea010
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6fffffec010
+left candidate selcetd
+candidate selected: 0x6fffffea010
+canddiate term: 3
+Before Removed: 
+location: 0x6fffffea010 length: 5
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffea010  my_fibo_term: 4 _s->length: 8
+<------------------------->
+my_fibo_term------4
+my addr: 0x6fffffea010
+my_fibo_term: 4
+left_fibo_term: 5
+left_fibo_num: 13
+Left Given addr is: 0x6fffffe6c10
+-----------------------------
+right_fibo_term: 3
+right_fibo_num: 5
+Right Given addr is: 0x6fffffec010
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+location: 0x6fffffea010 length: 8
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+location: 0x6fffffea010 length: 8
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge START----------------
+Calculated addr is: 0x6fffffee810
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffee010
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+After Removed: 
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+next term: 0x6fffffee010  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffee010
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffecc10
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6fffffeec10
+INVALID SEGMENT HEADER!!0x6fffffecc10
+right candidate selcetd
+candidate selected: 0x6fffffeec10
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffeec10 length: 2
+location: 0x6fffffef410 length: 2
+After Removed: 
+location: 0x6fffffef410 length: 2
+next term: 0x6fffffee010  my_fibo_term: 3 _s->length: 5
+<------------------------->
+my_fibo_term------3
+my addr: 0x6fffffee010
+my_fibo_term: 3
+left_fibo_term: 4
+left_fibo_num: 8
+Left Given addr is: 0x6fffffec010
+-----------------------------
+right_fibo_term: 2
+right_fibo_num: 3
+Right Given addr is: 0x6fffffef410
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffee010 length: 5
+TERM: 4
+location: 0x6fffffea010 length: 8
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffef410 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffee010 length: 5
+TERM: 4
+location: 0x6fffffea010 length: 8
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge START----------------
+Calculated addr is: 0x6fffffefc10
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffef410
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffef410 length: 2
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffef410  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffef410
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffee010
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6ffffff0010
+left candidate selcetd
+INVALID SEGMENT HEADER!!0x6ffffff0010
+candidate selected: 0x6fffffee010
+canddiate term: 3
+Before Removed: 
+location: 0x6fffffee010 length: 5
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffee010  my_fibo_term: 4 _s->length: 8
+<------------------------->
+my_fibo_term------4
+my addr: 0x6fffffee010
+my_fibo_term: 4
+left_fibo_term: 5
+left_fibo_num: 13
+Left Given addr is: 0x6fffffeac10
+-----------------------------
+right_fibo_term: 3
+right_fibo_num: 5
+Right Given addr is: 0x6ffffff0010
+INVALID SEGMENT HEADER!!0x6ffffff0010
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+Empty free list
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+location: 0x6fffffee010 length: 8
+location: 0x6fffffea010 length: 8
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+Empty free list
+TERM: 8
+Empty free list
+TERM: 9
+Empty free list
+TERM: 10
+Empty free list
+TERM: 11
+Empty free list
+TERM: 12
+Empty free list
+TERM: 13
+Empty free list
+TERM: 14
+location: 0x6ffffef0010 length: 987
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffe8c10 length: 2
+location: 0x6fffffe9810 length: 2
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+location: 0x6fffffe6c10 length: 8
+TERM: 5
+Empty free list
+TERM: 6
+Empty free list
+TERM: 7
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge START----------------
+Calculated addr is: 0x6fffffe9410
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffe8c10
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffe8c10 length: 2
+location: 0x6fffffe9810 length: 2
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+After Removed: 
+location: 0x6fffffe9810 length: 2
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+next term: 0x6fffffe8c10  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffe8c10
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffe7810
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6fffffe9810
+INVALID SEGMENT HEADER!!0x6fffffe7810
+right candidate selcetd
+candidate selected: 0x6fffffe9810
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffe9810 length: 2
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+After Removed: 
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+next term: 0x6fffffe8c10  my_fibo_term: 3 _s->length: 5
+<------------------------->
+my_fibo_term------3
+my addr: 0x6fffffe8c10
+my_fibo_term: 3
+left_fibo_term: 4
+left_fibo_num: 8
+Left Given addr is: 0x6fffffe6c10
+-----------------------------
+right_fibo_term: 2
+right_fibo_num: 3
+Right Given addr is: 0x6fffffea010
+left candidate selcetd
+candidate selected: 0x6fffffe6c10
+canddiate term: 4
+Before Removed: 
+location: 0x6fffffe6c10 length: 8
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffe6c10  my_fibo_term: 5 _s->length: 13
+<------------------------->
+my_fibo_term------5
+my addr: 0x6fffffe6c10
+my_fibo_term: 5
+left_fibo_term: 6
+left_fibo_num: 21
+Left Given addr is: 0x6fffffe1810
+-----------------------------
+right_fibo_term: 4
+right_fibo_num: 8
+Right Given addr is: 0x6fffffea010
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge START----------------
+Calculated addr is: 0x6fffffea810
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffea010
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+After Removed: 
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+next term: 0x6fffffea010  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffea010
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffe8c10
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6fffffeac10
+left candidate selcetd
+right candidate selcetd
+candidate selected: 0x6fffffeac10
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+After Removed: 
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+next term: 0x6fffffea010  my_fibo_term: 3 _s->length: 5
+<------------------------->
+my_fibo_term------3
+my addr: 0x6fffffea010
+my_fibo_term: 3
+left_fibo_term: 4
+left_fibo_num: 8
+Left Given addr is: 0x6fffffe8010
+-----------------------------
+right_fibo_term: 2
+right_fibo_num: 3
+Right Given addr is: 0x6fffffeb410
+INVALID SEGMENT HEADER!!0x6fffffe8010
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffea010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge START----------------
+Calculated addr is: 0x6fffffea810
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffea010
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+After Removed: 
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+next term: 0x6fffffea010  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffea010
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffe8c10
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6fffffeac10
+left candidate selcetd
+right candidate selcetd
+candidate selected: 0x6fffffeac10
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+After Removed: 
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+next term: 0x6fffffea010  my_fibo_term: 3 _s->length: 5
+<------------------------->
+my_fibo_term------3
+my addr: 0x6fffffea010
+my_fibo_term: 3
+left_fibo_term: 4
+left_fibo_num: 8
+Left Given addr is: 0x6fffffe8010
+-----------------------------
+right_fibo_term: 2
+right_fibo_num: 3
+Right Given addr is: 0x6fffffeb410
+INVALID SEGMENT HEADER!!0x6fffffe8010
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffea010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffea010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge START----------------
+Calculated addr is: 0x6fffffe1810
+addr length: 21
+my_fibo_term------6
+my addr: 0x6fffffe1810
+my_fibo_term: 6
+left_fibo_term: 7
+left_fibo_num: 34
+Left Given addr is: 0x6fffffd9010
+-----------------------------
+right_fibo_term: 5
+right_fibo_num: 13
+Right Given addr is: 0x6fffffe6c10
+left candidate selcetd
+right candidate selcetd
+candidate selected: 0x6fffffe6c10
+canddiate term: 5
+Before Removed: 
+location: 0x6fffffe6c10 length: 13
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffe1810  my_fibo_term: 7 _s->length: 34
+<------------------------->
+my_fibo_term------7
+my addr: 0x6fffffe1810
+my_fibo_term: 7
+left_fibo_term: 8
+left_fibo_num: 55
+Left Given addr is: 0x6fffffd3c10
+-----------------------------
+right_fibo_term: 6
+right_fibo_num: 21
+Right Given addr is: 0x6fffffea010
+INVALID SEGMENT HEADER!!0x6fffffd3c10
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffea010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+Empty free list
+TERM: 6
+Empty free list
+TERM: 7
+location: 0x6fffffe1810 length: 34
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+Empty free list
+TERM: 6
+Empty free list
+TERM: 7
+location: 0x6fffffe1810 length: 34
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge START----------------
+Calculated addr is: 0x6fffffea810
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffea010
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffea010 length: 2
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+After Removed: 
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+next term: 0x6fffffea010  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffea010
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffe8c10
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6fffffeac10
+left candidate selcetd
+right candidate selcetd
+candidate selected: 0x6fffffeac10
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffeac10 length: 2
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+After Removed: 
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+next term: 0x6fffffea010  my_fibo_term: 3 _s->length: 5
+<------------------------->
+my_fibo_term------3
+my addr: 0x6fffffea010
+my_fibo_term: 3
+left_fibo_term: 4
+left_fibo_num: 8
+Left Given addr is: 0x6fffffe8010
+-----------------------------
+right_fibo_term: 2
+right_fibo_num: 3
+Right Given addr is: 0x6fffffeb410
+INVALID SEGMENT HEADER!!0x6fffffe8010
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffea010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+Empty free list
+TERM: 6
+Empty free list
+TERM: 7
+location: 0x6fffffe1810 length: 34
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffea010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+Empty free list
+TERM: 6
+Empty free list
+TERM: 7
+location: 0x6fffffe1810 length: 34
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge START----------------Shawn
+Calculated addr is: 0x6fffffebc10
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffeb410
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+After Removed: 
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+next term: 0x6fffffeb410  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffeb410
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffea010
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6fffffec010
+left candidate selcetd
+candidate selected: 0x6fffffea010
+canddiate term: 3
+Before Removed: 
+location: 0x6fffffea010 length: 5
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffea010  my_fibo_term: 4 _s->length: 8
+<------------------------->
+my_fibo_term------4
+my addr: 0x6fffffea010
+my_fibo_term: 4
+left_fibo_term: 5
+left_fibo_num: 13
+Left Given addr is: 0x6fffffe6c10
+-----------------------------
+right_fibo_term: 3
+right_fibo_num: 5
+Right Given addr is: 0x6fffffec010          (?????)
+left candidate selcetd
+candidate selected: 0x6fffffe6c10	 (?????)
+canddiate term: 5
+Before Removed: 
+Empty free list
+Error: no segment header in free list
+After Removed: 
+Empty free list
+next term: 0x6fffffe6c10  my_fibo_term: 6 _s->length: 21
+<------------------------->
+my_fibo_term------6
+my addr: 0x6fffffe6c10
+my_fibo_term: 6
+left_fibo_term: 7
+left_fibo_num: 34
+Left Given addr is: 0x6fffffde410
+-----------------------------
+right_fibo_term: 5
+right_fibo_num: 13
+Right Given addr is: 0x6fffffec010
+INVALID SEGMENT HEADER!!0x6fffffde410
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+Empty free list
+TERM: 6
+location: 0x6fffffe6c10 length: 21
+TERM: 7
+location: 0x6fffffe1810 length: 34
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge END----------------- 
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffea010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+location: 0x6fffffe6c10 length: 13
+TERM: 6
+Empty free list
+TERM: 7
+location: 0x6fffffe1810 length: 34
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge START----------------FULL
+Calculated addr is: 0x6fffffebc10
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffeb410
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffeb410 length: 2
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+After Removed: 
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+next term: 0x6fffffeb410  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffeb410
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffea010
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6fffffec010
+left candidate selcetd
+candidate selected: 0x6fffffea010
+canddiate term: 3
+Before Removed: 
+location: 0x6fffffea010 length: 5
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffea010  my_fibo_term: 4 _s->length: 8
+<------------------------->
+my_fibo_term------4
+my addr: 0x6fffffea010
+my_fibo_term: 4
+left_fibo_term: 5
+left_fibo_num: 13
+Left Given addr is: 0x6fffffe6c10
+-----------------------------
+right_fibo_term: 3
+right_fibo_num: 5
+Right Given addr is: 0x6fffffec010
+left candidate selcetd
+candidate selected: 0x6fffffe6c10
+canddiate term: 5
+Before Removed: 
+location: 0x6fffffe6c10 length: 13
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffe6c10  my_fibo_term: 6 _s->length: 21
+<------------------------->
+my_fibo_term------6
+my addr: 0x6fffffe6c10
+my_fibo_term: 6
+left_fibo_term: 7
+left_fibo_num: 34
+Left Given addr is: 0x6fffffde410
+-----------------------------
+right_fibo_term: 5
+right_fibo_num: 13
+Right Given addr is: 0x6fffffec010
+INVALID SEGMENT HEADER!!0x6fffffde410
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+Empty free list
+TERM: 6
+location: 0x6fffffe6c10 length: 21
+TERM: 7
+location: 0x6fffffe1810 length: 34
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+TERM: 2
+Empty free list
+TERM: 3
+Empty free list
+TERM: 4
+Empty free list
+TERM: 5
+Empty free list
+TERM: 6
+location: 0x6fffffe6c10 length: 21
+TERM: 7
+location: 0x6fffffe1810 length: 34
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge START----------------
+Calculated addr is: 0x6fffffee810
+addr length: 1
+my_fibo_term------0
+candidate selected: 0x6fffffee010
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffee010 length: 2
+location: 0x6fffffeec10 length: 2
+After Removed: 
+location: 0x6fffffeec10 length: 2
+next term: 0x6fffffee010  my_fibo_term: 2 _s->length: 3
+<------------------------->
+my_fibo_term------2
+my addr: 0x6fffffee010
+my_fibo_term: 2
+left_fibo_term: 3
+left_fibo_num: 5
+Left Given addr is: 0x6fffffecc10
+-----------------------------
+right_fibo_term: 1
+right_fibo_num: 2
+Right Given addr is: 0x6fffffeec10
+INVALID SEGMENT HEADER!!0x6fffffecc10
+right candidate selcetd
+candidate selected: 0x6fffffeec10
+canddiate term: 1
+Before Removed: 
+location: 0x6fffffeec10 length: 2
+List is empty now.
+After Removed: 
+Empty free list
+next term: 0x6fffffee010  my_fibo_term: 3 _s->length: 5
+<------------------------->
+my_fibo_term------3
+my addr: 0x6fffffee010
+my_fibo_term: 3
+left_fibo_term: 4
+left_fibo_num: 8
+Left Given addr is: 0x6fffffec010
+-----------------------------
+right_fibo_term: 2
+right_fibo_num: 3
+Right Given addr is: 0x6fffffef410
+Error: both left and right candidate are not available.
+TERM: 0
+Empty free list
+TERM: 1
+Empty free list
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffee010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+Empty free list
+TERM: 6
+location: 0x6fffffe6c10 length: 21
+TERM: 7
+location: 0x6fffffe1810 length: 34
+location: 0x6fffffd9010 length: 34
+TERM: 8
+Empty free list
+TERM: 9
+location: 0x6fffffc2c10 length: 89
+TERM: 10
+Empty free list
+TERM: 11
+location: 0x6fffff88810 length: 233
+TERM: 12
+Empty free list
+TERM: 13
+location: 0x6ffffef0010 length: 610
+TERM: 14
+Empty free list
+------------Merge END-----------------
+TERM: 0
+Empty free list
+TERM: 1
+Empty free list
+TERM: 2
+Empty free list
+TERM: 3
+location: 0x6fffffee010 length: 5
+TERM: 4
+Empty free list
+TERM: 5
+Empty free list
+TERM: 6
+location: 0x6fffffe6c10 length: 1751672936
+      2 [main] MyAllocator 1836 cygwin_exception::open_stackdumpfile: Dumping stack trace to MyAllocator.exe.stackdump
